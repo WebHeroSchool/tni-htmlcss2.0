@@ -1,0 +1,29 @@
+body {
+  font-family: 'Roboto', sans-serif;
+}
+div {
+  font-family: 'PT Serif', serif;
+  font-style: normal;
+  font-weight: bold;
+  font-size: 24px;
+  line-height: 32px;
+}
+h1 {
+  font-family: 'PT Serif', serif;
+  font-style: normal;
+  font-weight: bold;
+  font-size: 66px;
+  line-height: 87px;
+  display: flex;
+  align-items: center;
+  color: #000000;
+}
+button {
+  font-style: normal;
+  font-weight: 500;
+  font-size: 18px;
+  line-height: 21px;
+  color: #FFFFFF;
+  border-radius: 4px;
+  background: #0056EC;
+}
