@@ -1,14 +1,14 @@
 body {
   font-family: 'Roboto', sans-serif;
 }
-div {
+.logo {
   font-family: 'PT Serif', serif;
   font-style: normal;
   font-weight: bold;
   font-size: 24px;
   line-height: 32px;
 }
-h1 {
+.main__title {
   font-family: 'PT Serif', serif;
   font-style: normal;
   font-weight: bold;
@@ -18,7 +18,7 @@ h1 {
   align-items: center;
   color: #000000;
 }
-button {
+.main__button {
   font-style: normal;
   font-weight: 500;
   font-size: 18px;
