@@ -3,16 +3,19 @@ body {
   margin: 0;
   border: dashed 1px red;
 }
+
 .wrapper {
   margin: auto;
   width: 80%;
   border: dashed 1px red;
 }
+
 .header {
   display: flex;
   justify-content: space-between;
   border: dashed 1px red;
 }
+
 .logo,
 .menu {
   display: inline-block;
@@ -20,20 +23,24 @@ body {
 }
 .logo {
   margin-right: 63%;
-  padding:40px 0;
+  padding: 40px 0;
   font-family: 'PT Serif', serif;
 }
+
 .menu {
   display: flex;
   align-items: center;
 }
+
 .menu__item {
   padding: 0 13px;
   border: dashed 1px red;
 }
+
 .menu__item:last-child {
   padding-right: 0;
 }
+
 .main {
   border: dashed 1px red;
 }
