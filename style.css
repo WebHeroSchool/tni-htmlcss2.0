@@ -1,22 +1,44 @@
 body {
   font-family: 'Roboto', sans-serif;
+  margin: 0;
+  border: dashed 1px red;
+}
+.wrapper {
+  margin: auto;
+  width: 80%;
+  border: dashed 1px red;
+}
+.header {
+  display: flex;
+  justify-content: space-between;
+  border: dashed 1px red;
+}
+.logo,
+.menu {
+  display: inline-block;
+  border: dashed 1px red;
 }
 .logo {
+  margin-right: 63%;
+  padding:40px 0;
   font-family: 'PT Serif', serif;
-  font-style: normal;
-  font-weight: bold;
-  font-size: 24px;
-  line-height: 32px;
+}
+.menu {
+  display: flex;
+  align-items: center;
+}
+.menu__item {
+  padding: 0 13px;
+  border: dashed 1px red;
+}
+.menu__item:last-child {
+  padding-right: 0;
+}
+.main {
+  border: dashed 1px red;
 }
 .main__title {
   font-family: 'PT Serif', serif;
-  font-style: normal;
-  font-weight: bold;
-  font-size: 66px;
-  line-height: 87px;
-  display: flex;
-  align-items: center;
-  color: #000000;
 }
 .main__button {
   font-style: normal;
