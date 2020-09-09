@@ -36,9 +36,6 @@ body {
   padding-right: 0;
 }
 
-.main {
-  border: dashed 1px red;
-}
 .main__title {
   font-family: 'PT Serif', serif;
 }
