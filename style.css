@@ -22,7 +22,7 @@ body {
   margin-right: 63%;
   padding: 40px 0;
   padding-left: 44px;
-  font: bold 24px/31px 'PT Serif', serif;;
+  font: bold 24px/31px 'PT Serif', serif;
 }
 
 .logo__circle {
@@ -43,7 +43,7 @@ body {
 .logo__circle_color_blue {
   left: 8px;
   top: 56%;
-  background: #C8DBFB;
+  background: #c8dbfb;
 }
 
 .menu {
