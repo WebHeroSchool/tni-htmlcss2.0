@@ -1,25 +1,21 @@
 body {
   font-family: 'Roboto', sans-serif;
   margin: 0;
-  border: dashed 1px red;
 }
 
 .wrapper {
   margin: auto;
   width: 80%;
-  border: dashed 1px red;
 }
 
 .header {
   display: flex;
   justify-content: space-between;
-  border: dashed 1px red;
 }
 
 .logo,
 .menu {
   display: inline-block;
-  border: dashed 1px red;
 }
 .logo {
   margin-right: 63%;
@@ -34,7 +30,6 @@ body {
 
 .menu__item {
   padding: 0 13px;
-  border: dashed 1px red;
 }
 
 .menu__item:last-child {
