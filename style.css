@@ -1,22 +1,65 @@
 body {
   font-family: 'Roboto', sans-serif;
+  margin: 0;
+}
+
+.wrapper {
+  margin: auto;
+  max-width: 80%;
+}
+
+.header {
+  display: flex;
+  justify-content: space-between;
+}
+
+.logo,
+.menu {
+  display: inline-block;
 }
 .logo {
-  font-family: 'PT Serif', serif;
-  font-style: normal;
-  font-weight: bold;
-  font-size: 24px;
-  line-height: 32px;
+  position: relative;
+  padding: 40px 0;
+  padding-left: 44px;
+  font: bold 24px/31px 'PT Serif', serif;
 }
-.main__title {
-  font-family: 'PT Serif', serif;
-  font-style: normal;
-  font-weight: bold;
-  font-size: 66px;
-  line-height: 87px;
+
+.logo__circle {
+  position: absolute;
+  left: 0;
+  top: 50%;
+  transform: translateY(-50%);
+  width: 28px;
+  height: 28px;
+  border-radius: 50%;
+  opacity: .7;
+}
+
+.logo__circle_color_dark-blue {
+  background: #0056EC;
+}
+
+.logo__circle_color_blue {
+  left: 8px;
+  top: 56%;
+  background: #c8dbfb;
+}
+
+.menu {
   display: flex;
   align-items: center;
-  color: #000000;
+}
+
+.menu__item {
+  padding: 0 13px;
+}
+
+.menu__item:last-child {
+  padding-right: 0;
+}
+
+.main__title {
+  font-family: 'PT Serif', serif;
 }
 .main__button {
   font-style: normal;
