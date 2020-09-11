@@ -61,7 +61,7 @@ body {
   transition: opacity .5s;
 }
 
-.menu__item:after {
+.menu__item::after {
   position: absolute;
   left: 0;
   display: block;
@@ -72,11 +72,12 @@ body {
   opacity: 0;
   transition: opacity .5s;
 }
+
 .menu__item:hover {
   opacity: .5;
 }
 
-.menu__item:hover:after {
+.menu__item:hover::after {
   position: absolute;
   left: 0;
   display: block;
@@ -98,8 +99,8 @@ body {
   background: #0056ec;
 }
 
-.menu__item:hover:after, 
-.menu__item_active:after {
+.menu__item:hover::after,
+.menu__item_active::after {
   opacity: 1;
 }
 
