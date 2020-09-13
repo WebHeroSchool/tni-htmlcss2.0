@@ -6,11 +6,13 @@ body {
 .wrapper {
   margin: auto;
   max-width: 80%;
+  border: dashed 1px red;
 }
 
 .header {
   display: flex;
   justify-content: space-between;
+  margin-bottom: 100px;
 }
 
 .logo,
@@ -108,15 +110,42 @@ body {
   margin-right: 0;
 }
 
+.main {
+  display: block;
+  align-items: center;
+  padding: 0 63% 100px 0;
+  background: top right no-repeat url(image/image.svg);
+  border: dashed 1px red;
+}
 .main__title {
+  display: block;
   font-family: 'PT Serif', serif;
+  font-style: normal;
+  font-weight: bold;
+  font-size: 50px;
+  line-height: 66px;
+  margin: 0 0 40px 0;
+  border: dashed 1px red;
+}
+
+.main__title-highlight {
+  background: #ecf3ff;
+}
+.main__description {
+  margin: 0 0 41px 0;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 18px;
+  line-height: 21px;
+  border: dashed 1px red;
 }
 .main__button {
+  height: 57px;
   font-style: normal;
   font-weight: 500;
   font-size: 18px;
   line-height: 21px;
-  color: #FFFFFF;
+  color: #fff;
   border-radius: 4px;
   background: #0056EC;
 }
