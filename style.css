@@ -6,7 +6,6 @@ body {
 .wrapper {
   margin: auto;
   max-width: 80%;
-  border: dashed 1px red;
 }
 
 .header {
@@ -115,32 +114,33 @@ body {
   align-items: center;
   padding: 0 63% 100px 0;
   background: top right no-repeat url(image/image.svg);
-  border: dashed 1px red;
 }
 .main__title {
   display: block;
   font-family: 'PT Serif', serif;
   font-style: normal;
   font-weight: bold;
-  font-size: 50px;
-  line-height: 66px;
+  font-size: 66px;
+  line-height: 87px;
   margin: 0 0 40px 0;
-  border: dashed 1px red;
+  padding-top: 100px;
 }
 
 .main__title-highlight {
   background: #ecf3ff;
 }
 .main__description {
+  display: block;
+  max-width: 80%;
   margin: 0 0 41px 0;
   font-style: normal;
   font-weight: normal;
-  font-size: 18px;
-  line-height: 21px;
+  font-size: 22px;
+  line-height: 26px;
   border: dashed 1px red;
 }
 .main__button {
-  height: 57px;
+  padding: 15px;
   font-style: normal;
   font-weight: 500;
   font-size: 18px;
