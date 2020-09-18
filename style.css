@@ -152,6 +152,6 @@ body {
 
 .main__button:hover {
   cursor: pointer;
-  background: #1E90FF;
+  background: #1e90ff;
   transition: 1s;
 }
