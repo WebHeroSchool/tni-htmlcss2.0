@@ -11,6 +11,7 @@ body {
 .header {
   display: flex;
   justify-content: space-between;
+  margin-bottom: 100px;
 }
 
 .logo,
@@ -108,15 +109,49 @@ body {
   margin-right: 0;
 }
 
+.main {
+  display: block;
+  align-items: center;
+  padding: 0 63% 100px 0;
+  background: top right no-repeat url(image/image.svg);
+}
 .main__title {
+  display: block;
   font-family: 'PT Serif', serif;
+  font-style: normal;
+  font-weight: bold;
+  font-size: 66px;
+  line-height: 87px;
+  margin: 0 0 40px 0;
+  padding-top: 100px;
+}
+
+.main__title-highlight {
+  background: #ecf3ff;
+}
+
+.main__description {
+  display: block;
+  max-width: 80%;
+  margin: 0 0 41px 0;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 22px;
+  line-height: 26px;
 }
 .main__button {
+  padding: 15px;
   font-style: normal;
   font-weight: 500;
   font-size: 18px;
   line-height: 21px;
-  color: #FFFFFF;
+  color: #fff;
   border-radius: 4px;
   background: #0056EC;
+}
+
+.main__button:hover {
+  cursor: pointer;
+  background: #1e90ff;
+  transition: 1s;
 }
