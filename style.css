@@ -22,7 +22,7 @@ body {
   position: relative;
   padding: 40px 0;
   padding-left: 44px;
-  font: bold 24px/31px 'PT Serif', serif;
+  font: bold 24px/32px 'PT Serif', serif;
 }
 
 .logo__circle {
@@ -149,10 +149,35 @@ body {
   border-radius: 4px;
   background: #0056EC;
   border: 0;
-  transition: background 1s ease-out 0s;
+  transition: background 0.2s ease-out 0s;
+  outline: none;
 }
 
 .main__button:hover {
   cursor: pointer;
   background: #1e90ff;
 }
+
+@media (max-width: 1366px;) {
+  .menu__item {
+    font-size: 14px;
+    line-height: 16px;
+  }
+
+  .main__title {
+    font-size: 50px;
+    line-height: 66px;
+  }
+
+  .main__description {
+    font-weight: 500;
+    font-size: 18px;
+    line-height: 21px;
+  }
+
+  .main__button {
+    font-size: 14px;
+    line-height: 16px;
+  }
+}
+  
