@@ -182,7 +182,7 @@ body {
 @media (max-width: 1366px) {
   .wrapper {
     max-width: 68%;
-}
+  }
 
   .header {
     margin-bottom: 65px;
@@ -216,4 +216,17 @@ body {
     margin-bottom: 90px;
   }
 }
-  
+
+@media (max-width: 1170px) {
+  .wrapper {
+    max-width: 91%;
+  }
+
+  .main__title {
+    margin-bottom: 34px;
+  }
+
+  .main__discription {
+    margin-bottom: 39px;
+  }
+}
