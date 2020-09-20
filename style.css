@@ -149,7 +149,7 @@ body {
   border-radius: 4px;
   background: #0056EC;
   border: 0;
-  transition: background 0.2s ease-out 0s;
+  transition: background .2s ease-out 0s;
   outline: none;
 }
 
@@ -164,6 +164,7 @@ body {
   margin: auto;
   max-width: 80%;
 }
+
 .footer__circle {
   position: relative;
   width: 8px;
@@ -180,7 +181,7 @@ body {
 
 @media (max-width: 1366px) {
   .wrapper {
-  max-width: 68%;
+    max-width: 68%;
 }
 
   .header {
@@ -199,7 +200,6 @@ body {
   }
 
   .main__description {
-    max-width: 90%;
     font-weight: 500;
     font-size: 18px;
     line-height: 21px;
@@ -211,8 +211,9 @@ body {
   }
 
   .main {
-    padding-right:60%;
+    padding: 0 50% 50px 0;
     background-size: contain;
+    margin-bottom: 90px;
   }
 }
   
