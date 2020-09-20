@@ -261,7 +261,7 @@ body {
     background: #0056EC;
   }
 
- .menu-burger::before {
+  .menu-burger::before {
     position: absolute;
     display: block;
     content: '';
