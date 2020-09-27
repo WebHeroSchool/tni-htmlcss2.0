@@ -231,16 +231,15 @@ body {
   }
 }
 
-@media (max-width: 375px) {
+@media (max-width: 999px) {
   .text {
     display: none;
   }
 
   .menu {
-    position: absolute;
+    position: relative;
     width: 25px;
     height: 17px;
-    left: 326px;
     top: 32px;
   }
 
